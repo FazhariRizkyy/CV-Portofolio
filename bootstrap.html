@@ -10,7 +10,7 @@
   </head>
   <body>
       </head>
-      <body>
+      <body style="background-color: rgb(75, 69, 70);">
         <div class="container">
           <div class="top">
             <h2 style="color: aliceblue;">Fazhari Rizky Rhahmathun<br /><span>Data Analyst</span></h2>
@@ -20,38 +20,72 @@
               </div>
               <div class="rightSide">
                 <p style="color: rgb(255, 255, 255);">
-                  Perkenalkan saya adalah Fazhari Rizky Rhahmathun <br>
+                  Perkenalkan saya adalah Fazhari Rizky Rhahmathun 
                   saya seorang Data Analyst dan saya sudah berpengalaman
-                  setidaknya 1 tahun di bidang Informatika atau Programmer
+                  selama 8 tahun di bidang Informatika atau Programmer
+                  <br><br>
+                  Dan saya juga memiliki kertertarikan terhadap Dunia Permrograman <br>
+                  terutama di bidang Data Analyst, dan saya juga tipe orang yang suka Ngulik 
+                  atau mencoba hal hal yang baru seputar Dunia Permrograman.
                 </p>
               </div>
             </div>
           </div>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active"aria-current="page"href="#"onclick="navigation('profile')">Profile</a>
+              <a class="nav-link active"aria-current="page"href="#"onclick="navigation('profile')">PROFILE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" onclick="navigation('education')">Education</a>
+              <a class="nav-link" href="#" onclick="navigation('education')">EDUCATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" onclick="navigation('experience')">Experience</a>
+              <a class="nav-link" href="#" onclick="navigation('experience')">EXPERIENCE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" onclick="navigation('skills')">Skills</a>
+              <a class="nav-link" href="#" onclick="navigation('skills')">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="navigation('contac me')">Contac Me</a>
             </li>
           </ul>
           <div class="row" id="profile">
-            
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Profile</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">About Me</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusantium, temporibus voluptatem laboriosam aut nobis nihil, in vitae quae aliquid aspernatur nam odit ut ad deserunt numquam optio. Minima, facere!</p>
+              </div>
+            </div>
           </div>
           <div class="row" id="education">
-            
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Education</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">My Education</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur in aut voluptatum suscipit sed deleniti quos pariatur officiis dolorum vero, repudiandae, numquam iste reiciendis asperiores eligendi itaque totam? Aliquam, dolor.</p>
+              </div>
+            </div>
           </div>
           <div class="row" id="experience">
-            
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Experience</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">My Experience</h6>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, expedita numquam. Corrupti velit ducimus, architecto ab labore delectus explicabo voluptate deserunt quam at, odit aliquam, quibusdam repudiandae ipsa neque qui?</p>
+              </div>
+            </div>
           </div>
           <div class="row" id="skills">
-            
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Skills</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">My Skills</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odit porro dolore illo nulla atque soluta architecto blanditiis reprehenderit, et necessitatibus, magnam aliquam numquam unde optio ducimus ut mollitia non!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="contac me">
+            <p>Gentelaman</p>
           </div>
         </div>
     <script>
@@ -62,18 +96,28 @@
           document.getElementById("education").style.display = "none";
           document.getElementById("experience").style.display = "none";
           document.getElementById("skills").style.display = "none";
+          document.getElementById("contac me").style.display = "none";
         } else if (id === "education") {
           document.getElementById("education").style.display = "block";
           document.getElementById("profile").style.display = "none";
           document.getElementById("experience").style.display = "none";
           document.getElementById("skills").style.display = "none";
+          document.getElementById("contac me").style.display = "none";
         } else if (id === "experience") {
           document.getElementById("experience").style.display = "block";
           document.getElementById("profile").style.display = "none";
           document.getElementById("education").style.display = "none";
           document.getElementById("skills").style.display = "none";
+          document.getElementById("contac me").style.display = "none";
         } else if (id === "skills") {
           document.getElementById("skills").style.display = "block";
+          document.getElementById("profile").style.display = "none";
+          document.getElementById("education").style.display = "none";
+          document.getElementById("experience").style.display = "none";
+          document.getElementById("contac me").style.display = "none";
+        } else if (id === "contac me") {
+          document.getElementById("contac me").style.display = "block";
+          document.getElementById("skills").style.display = "none";
           document.getElementById("profile").style.display = "none";
           document.getElementById("education").style.display = "none";
           document.getElementById("experience").style.display = "none";
