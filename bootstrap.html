@@ -27,107 +27,33 @@
               </div>
             </div>
           </div>
-          <div class="row" id="navigasi">
-            <ul class="nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  onclick="navigation('profile')"
-                  >Profile</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="navigation('education')"
-                  >Education</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="navigation('experience')"
-                  >Experience</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="navigation('skills')"
-                  >Skills</a
-                >
-              </li>
-            </ul>
-          </div>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active"aria-current="page"href="#"onclick="navigation('profile')">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="navigation('education')">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="navigation('experience')">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="navigation('skills')">Skills</a>
+            </li>
+          </ul>
           <div class="row" id="profile">
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th scope="row">Tempat Lahir</th>
-                  <td>Tasikmalaya</td>
-                </tr>
-                <tr>
-                  <th scope="row">Tanggal Lahir</th>
-                  <td>13 Januari 2005</td>
-                </tr>
-                <tr>
-                  <th scope="row">kewarganegaraan</th>
-                  <td>Indonesia</td>
-                </tr>
-              </tbody>
-            </table>
+            
           </div>
           <div class="row" id="education">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-  
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
+            
           </div>
           <div class="row" id="experience">
-            Pernah Praktik Kerja Lapangan di Galaxy Computer <br />
-            Pernah mengikuti Ujikom di SMK PLUS YSB SURYALAYA <br />
+            
           </div>
           <div class="row" id="skills">
-            1. Bisa mengoperasikan skill Yin di game Mobile Legends <br />
-            2. Bisa mengoperasikan Software Microsoft Excel dan Microsoft Word
-            <br />
+            
           </div>
         </div>
-        <script>
-          function navigation(id) {
-            //alert('Cek id: '+id);
-            if (id === "profile") {
-              document.getElementById("profile").style.display = "block";
-              document.getElementById("education").style.display = "none";
-              document.getElementById("experience").style.display = "none";
-              document.getElementById("skills").style.display = "none";
-            } else if (id === "education") {
-              document.getElementById("education").style.display = "block";
-              document.getElementById("profile").style.display = "none";
-              document.getElementById("experience").style.display = "none";
-              document.getElementById("skills").style.display = "none";
-            } else if (id === "experience") {
-              document.getElementById("experience").style.display = "block";
-              document.getElementById("profile").style.display = "none";
-              document.getElementById("education").style.display = "none";
-              document.getElementById("skills").style.display = "none";
-            } else if (id === "skills") {
-              document.getElementById("skills").style.display = "block";
-              document.getElementById("profile").style.display = "none";
-              document.getElementById("education").style.display = "none";
-              document.getElementById("experience").style.display = "none";
-            }
-          }
-        </script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-          crossorigin="anonymous"
-        ></script>
-      </body>
-    </html>
     <script>
       function navigation(id) {
         // alert('cek id : '+id);

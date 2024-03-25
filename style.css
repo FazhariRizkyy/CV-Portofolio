@@ -36,4 +36,6 @@ body {
   grid-template-columns: 2fr 3fr;
   margin-top: 20px;
 }
-
+.nav-item {
+  font-family: "Poppins", sans-serif;
+}
