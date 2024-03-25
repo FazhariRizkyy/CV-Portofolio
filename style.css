@@ -1,0 +1,11 @@
+body {
+    background: #7d7e7e;
+  }
+  .container {
+    background: #f5f5f5;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1250px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(red, green, blue, alpha);
+  }
