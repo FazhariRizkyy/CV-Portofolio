@@ -27,6 +27,9 @@ body {
   height: 220px;
   background: linear-gradient(45deg, #7d7c81, #35349c);
   padding: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-weight: 600;
 }
 .group {
   position: relative;
@@ -66,4 +69,22 @@ h4 {
   padding: 0 15px;
   margin-top: 20px;
   display: inline-flex;
+}
+.contactInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+.contactInfo li {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+.contactInfo li .icon {
+  color: #000000;
+}
+.contactInfo li .text {
+  color: #000000;
 }
