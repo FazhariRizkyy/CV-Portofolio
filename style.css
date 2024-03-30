@@ -24,18 +24,46 @@ body {
   position: relative;
   width: 100vhpx;
   margin-top: 10px;
-  height: 420px;
+  height: 220px;
   background: linear-gradient(45deg, #7d7c81, #35349c);
   padding: 50px;
 }
 .group {
   position: relative;
   display: grid;
-  gap: 10px;
+  gap: 40px;
   width: 100%;
   grid-template-columns: 2fr 3fr;
   margin-top: 20px;
 }
-.nav-item {
-  font-family: "Poppins", sans-serif;
+.adjstMargin {
+  margin-top: -10px;
+}
+.edu_group {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+.edu_groupBx {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.edu_groupBx b {
+  font-weight: 600;
+  color: #231fbf;
+}
+h4 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #000000;
+  background: #ffffff;
+  font-weight: 600;
+  padding: 0 15px;
+  margin-top: 20px;
+  display: inline-flex;
 }
