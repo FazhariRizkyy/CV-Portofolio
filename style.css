@@ -28,7 +28,7 @@ body {
   background: linear-gradient(45deg, #7d7c81, #35349c);
   padding: 50px;
   text-transform: uppercase;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.10em;
   font-weight: 600;
 }
 .group {
@@ -64,11 +64,9 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   color: #000000;
-  background: #ffffff;
   font-weight: 600;
   padding: 0 15px;
   margin-top: 20px;
-  display: inline-flex;
 }
 .contactInfo {
   position: relative;
@@ -87,4 +85,7 @@ h4 {
 }
 .contactInfo li .text {
   color: #000000;
+}
+.card-text {
+  text-align: justify;
 }
