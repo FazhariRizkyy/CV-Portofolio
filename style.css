@@ -39,9 +39,6 @@ body {
   grid-template-columns: 2fr 3fr;
   margin-top: 20px;
 }
-.adjstMargin {
-  margin-top: -10px;
-}
 .edu_group {
   position: relative;
   width: 100%;
